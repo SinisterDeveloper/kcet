@@ -23,9 +23,9 @@ and stores it in the MongoDB database for subsequent usage by the Server. It is 
 the deployment of the server or the client application. By default, the Scraper examines all potential 675,000
 combinations of roll numbers; however, this exhaustive check can be bypassed for subsequent rounds if already completed.
 
-*Note:* Large-scale data scraping, particularly when performed at a rapid pace, demands substantial resources from both
+*IMPORTANT:* Large-scale data scraping, particularly when performed at a rapid pace, demands substantial resources from both
 the client and server side. In certain instances, it may be deemed illegal or considered a "Denial of Service" attack.
-The responsibility of ensuring legal and ethical use of this code lies with the end-user. Please refer to the LICENSE
+The responsibility of ensuring legal and ethical use of this code lies with the person using the code. Please refer to the LICENSE
 for further important notices.
 
 ## Server
@@ -54,7 +54,7 @@ To set up and run the KCET Allotment Analyzer application locally, follow these 
 
 Ensure you have the following installed:
 
-- Node.js (version 14.x or above)
+- Node.js (version 20.x or above)
 - npm (Node Package Manager)
 - MongoDB (either local instance or cloud-based like MongoDB Atlas)
 
